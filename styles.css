@@ -1,56 +1,64 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+    color: #333;
 }
 
 header {
-    background: #003366;
-    color: white;
+    background: #0056b3;
+    color: #ffffff;
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 20px;
 }
 
 nav {
     background: #004080;
-    color: white;
+    color: #ffffff;
+    padding: 15px 0;
 }
 
 nav ul {
     list-style: none;
+    display: flex;
+    justify-content: center;
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
 }
 
 main {
-    padding: 20px;
     max-width: 800px;
     margin: auto;
+    padding: 20px;
 }
 
 h2 {
-    color: #003366;
+    color: #0056b3;
+    margin-top: 20px;
 }
 
 footer {
-    background: #003366;
+    background: #0056b3;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     position: relative;
     bottom: 0;
     width: 100%;
